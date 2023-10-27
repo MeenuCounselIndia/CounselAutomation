@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automtion Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CI App Test(failed)">
+    <classes>
+      <class name="com.ci.qa.testcases.LiveClassesPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addNewFormDetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ci.qa.testcases.LiveClassesPageTest -->
+      <class name="com.ci.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageElements"/>
+        </methods>
+      </class> <!-- com.ci.qa.testcases.HomePageTest -->
+      <class name="com.ci.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ci.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- CI App Test(failed) -->
+</suite> <!-- Failed suite [Automtion Suit] -->
