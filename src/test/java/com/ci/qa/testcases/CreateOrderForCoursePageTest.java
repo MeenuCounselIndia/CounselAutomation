@@ -40,7 +40,7 @@ public class CreateOrderForCoursePageTest extends TestBase {
 		batchesPage.addStudentBookingButton();
 		//createOrderForCoursePage.addOrderForm("Diploma in Child Psychology", "meenu,Capacity:100,Total Students:3", "Already User");	
 		
-		
+		createOrderForCoursePage.addOrderForm();
 		
 	}
 	
@@ -49,7 +49,7 @@ public class CreateOrderForCoursePageTest extends TestBase {
 	
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+	//	driver.quit();
 	}
 	
 

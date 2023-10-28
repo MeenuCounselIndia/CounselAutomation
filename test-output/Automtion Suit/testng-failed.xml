@@ -10,20 +10,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.ci.qa.testcases.LiveClassesPageTest -->
-      <class name="com.ci.qa.testcases.HomePageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="homePageElements"/>
-        </methods>
-      </class> <!-- com.ci.qa.testcases.HomePageTest -->
-      <class name="com.ci.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.ci.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- CI App Test(failed) -->
 </suite> <!-- Failed suite [Automtion Suit] -->

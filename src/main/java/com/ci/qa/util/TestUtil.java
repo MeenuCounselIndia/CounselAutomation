@@ -45,13 +45,13 @@ branch.selectByIndex(1);
 
 /*
 @DataProvider
-public Object[][] getCRMTestData(){
-	Object data[][] = TestUtil.getTestData(sheetName);
+public Object[][] getTestData(){
+	Object data[][] = TestUtil.getTestDataFile(sheetName);
 	return data;
 }
 
 
-@Test(priority=4, dataProvider="getCRMTestData")
+@Test(priority=4, dataProvider="getTestData")
 public void validateCreateNewContact(String title, String firstName, String lastName, String company){
 	homePage.clickOnNewContactLink();
 	//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
